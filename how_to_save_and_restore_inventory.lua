@@ -47,7 +47,7 @@ to clear the inventory you can just do:
 ply:lscsWipeInventory( wipe_unequipped ) -- clears the entire inventory. If wipe_unequipped = true will only clear unequipped items from inventory. Server only
 
 
- more functions and info see:
- https://raw.githubusercontent.com/SpaxscE/lscs_templates_and_info/main/useful_lua_functions.lua
+more functions and info see:
+https://raw.githubusercontent.com/SpaxscE/lscs_templates_and_info/main/useful_lua_functions.lua
 
 ]]
