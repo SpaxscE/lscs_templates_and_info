@@ -176,7 +176,7 @@ keydown = ply:lscsKeyDown( IN_KEY ) -- similar to ply:KeyDown() except properly 
 
 forcepowers = ply:lscsGetForceAbilities() -- returns a table of equipped force powers. NOTE: On client this is only synced to LocalPlayer()
 
-combodata = ply:lscsGetCombo( num ) -- returns given num-id combo if the player has it equipped. Will fall back to default stance if invalid num-id
+combodata = ply:lscsGetCombo( num ) -- returns given num-id combo if the player has it equipped or a table of all combos if called without arguments. Will fall back to default stance if invalid num-id
 
 hilt_right, hilt_left = ply:lscsGetHilt() -- gets the EQUIPPED HILT in the menu, NOT THE CRAFTED ONE FROM THE SABER THAT YOU ARE HOLDING IN YOUR HANDS
 
